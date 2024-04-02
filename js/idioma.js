@@ -69,6 +69,10 @@ function changeLanguage(lang) {
     }
   };
 
+  localStorage.setItem('idioma', lang);
+  
+
+
   // Atualiza o conteúdo do botão para refletir o idioma selecionado
   const button = document.getElementById('languageButton');
   var imagem = document.createElement("img");
@@ -84,6 +88,7 @@ function changeLanguage(lang) {
   const elements = document.querySelectorAll('[id^="texto"]');
   elements.forEach(element => {
     element.textContent = translations[lang][element.id];
+    
   });
 
   const elementos = document.querySelectorAll('[id^="text"]');
@@ -102,8 +107,12 @@ function changeLanguage(lang) {
       });
     }
   });
-  const inputElement = document.getElementById('text15'); 
-  inputElement.placeholder = translations[lang]['text15']; 
+}
 
 
+
+const idiomaSalvo = localStorage.getItem('idioma');
+if (idiomaSalvo) {
+  // Se houver, aplica o idioma salvo
+  changeLanguage(idiomaSalvo);
 }
