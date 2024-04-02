@@ -203,7 +203,7 @@ display: block !important;
 
 /* alternancia de dark e light mode */
 body {
-    transition: background-color 1.5s ease, color 1.5s ease;
+    transition: background-color 1.5s ease, color 1.5s ease, background-image 1.5s ease;
     font-family: 'Roboto', sans-serif;
   }
 
