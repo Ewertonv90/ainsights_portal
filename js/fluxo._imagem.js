@@ -16,6 +16,9 @@ window.onload = function() {
             currentIndex = 0;
         }
     }
-
-    setInterval(showNextImage, 600);
+    if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
+        // Executa a função showNextImage() apenas se estiver na página index
+        setInterval(showNextImage, 600);
+    }
+    
 };

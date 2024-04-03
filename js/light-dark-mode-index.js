@@ -11,6 +11,7 @@ const modeTogglerContainer4light = document.querySelector('.container-4');
 
 
 
+
 modeTogglerDark.addEventListener('click', () => {
   function salvarPreferenciaTema(tipoTema) {
     localStorage.setItem('tema', tipoTema);
@@ -25,6 +26,7 @@ modeTogglerDark.addEventListener('click', () => {
   modeTogglerContainer2light.classList.add('containerDark-2');
   modeTogglerContainer3light.classList.add('containerDark-3');
   modeTogglerContainer4light.classList.add('containerDark-4');
+
   salvarPreferenciaTema('dark-mode')
 });
 
@@ -42,6 +44,7 @@ modeTogglerLight.addEventListener('click', () => {
   modeTogglerContainer2light.classList.add('container-2');
   modeTogglerContainer3light.classList.add('container-3');
   modeTogglerContainer4light.classList.add('container-4');
+
   salvarPreferenciaTema('light-mode')
 });
 

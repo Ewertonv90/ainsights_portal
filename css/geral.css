@@ -10,15 +10,18 @@ user-select: none;
     background-image: url("../img/946146-hd_1920_1080_30fps.mp4");
     background-attachment: fixed;
     color: black;
+    font-family: 'Roboto' black, sans-serif;
 }
   
 .dark-mode {
     background-image: url("../img/946146-hd_1920_1080_30fps.mp4");
     background-attachment: fixed;
     color: white;
+    font-family: 'Roboto' black, sans-serif; 
   }
 .container-1{
  background-color: rgba(255, 255, 255, 0.3) ;
+ font-family: 'Roboto' black, sans-serif; 
  
 }
 
@@ -26,7 +29,8 @@ user-select: none;
     background-color: rgba(255, 255, 255, 0.3);
     margin-left: 15%;
     border-top-left-radius: 50px; 
-    border-bottom-left-radius: 50px; 
+    border-bottom-left-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
 }
 
 .container-3{
@@ -34,7 +38,8 @@ user-select: none;
     margin-right: 15%;
     margin-top: 10% !important;
     border-top-right-radius: 50px; 
-    border-bottom-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
 }
 
 .container-4{
@@ -43,20 +48,34 @@ user-select: none;
     margin-top: 10% !important;
     margin-bottom: 10% !important;
     border-top-left-radius: 50px; 
-    border-bottom-left-radius: 50px; 
+    border-bottom-left-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
+   }
+
+.container-5{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
+   }
+
+.container-6{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
    }
 
 /* CONTEINERS DARK*/
 .containerDark-1{
     background-color: rgba(0, 0, 0, 0.3) !important;
+    font-family: 'Roboto' black, sans-serif; 
    }
    
 .containerDark-2{
     background-color: rgba(0, 0, 0, 0.3);
     margin-left: 15%;
     border-top-left-radius: 50px; 
-    border-bottom-left-radius: 50px; 
-       
+    border-bottom-left-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
    }
    
 .containerDark-3{
@@ -64,7 +83,8 @@ user-select: none;
     margin-right: 15%;
     margin-top: 10% !important;
     border-top-right-radius: 50px; 
-    border-bottom-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
    }
    
 .containerDark-4{
@@ -73,9 +93,21 @@ user-select: none;
     margin-top: 10% !important;
     margin-bottom: 10% !important;
     border-top-left-radius: 50px; 
-    border-bottom-left-radius: 50px; 
+    border-bottom-left-radius: 50px;
+    font-family: 'Roboto' black, sans-serif; 
    }
- 
+
+.containerDark-5{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px; 
+    font-family: 'Roboto' black, sans-serif; 
+   }
+
+.containerDark-6{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px; 
+    font-family: 'Roboto' black, sans-serif; 
+   }
 
 /* AJUSTES DE GRID*/   
 
@@ -184,7 +216,7 @@ display: block !important;
 .text-footer-left{
 
     font-size: large;
-    font-family: 'Roboto' ,sans-serif ;
+    font-family: 'Roboto' black, sans-serif; 
     margin-left: 15%;
 }
 
@@ -192,7 +224,7 @@ display: block !important;
 .text-footer-right{
 
     font-size: large;
-    font-family: 'Roboto' ,sans-serif ;
+    font-family: 'Roboto' black, sans-serif; 
     margin-left: 15%;
 }
 
@@ -204,7 +236,7 @@ display: block !important;
 /* alternancia de dark e light mode */
 body {
     transition: background-color 1.5s ease, color 1.5s ease, background-image 1.5s ease;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' black, sans-serif; 
   }
 
 #video-bg {
@@ -218,3 +250,4 @@ body {
     z-index: -1;
     filter: blur(15px);
   }
+
