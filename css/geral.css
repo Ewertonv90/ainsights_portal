@@ -238,16 +238,39 @@ body {
     transition: background-color 1.5s ease, color 1.5s ease, background-image 1.5s ease;
     font-family: 'Roboto' black, sans-serif; 
   }
-
-#video-bg {
+/* VIDEOS BG */
+#video-bg-index {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 10%;
+    min-height: 100%; 
     width: auto;
     height: auto;
     z-index: -1;
-    filter: blur(15px);
+    filter: blur(0px);
   }
 
+#video-bg-sobremim {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -5;
+    filter: blur(8px);
+  }
+
+#video-bg-contato {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -5;
+    filter: blur(8px);
+  }
