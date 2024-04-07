@@ -240,27 +240,27 @@ body {
   }
 /* VIDEOS BG */
 #video-bg-index {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%; 
-    width: auto;
-    height: auto;
-    z-index: -1;
-    filter: blur(0px);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
   }
 
 #video-bg-sobremim {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%;
+    /* min-width: 100%;
     min-height: 100%; 
     width: auto;
-    height: auto;
+    height: auto; */
     z-index: -5;
-    filter: blur(8px);
+    filter: blur(0px);
   }
 
 #video-bg-contato {
